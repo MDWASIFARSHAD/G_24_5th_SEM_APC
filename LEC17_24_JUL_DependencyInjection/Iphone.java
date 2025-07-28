@@ -6,6 +6,7 @@ public class Iphone {
 	
 	public Iphone(Phone p) {
 		// TODO Auto-generated constructor stub
+
 		this.p=p;
 	}
 

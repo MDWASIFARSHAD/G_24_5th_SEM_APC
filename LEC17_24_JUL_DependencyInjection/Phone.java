@@ -5,6 +5,7 @@ public class Phone {
 	public void calling()
 	{
 		System.out.println("i am calling");
+
 	}
 
 }
