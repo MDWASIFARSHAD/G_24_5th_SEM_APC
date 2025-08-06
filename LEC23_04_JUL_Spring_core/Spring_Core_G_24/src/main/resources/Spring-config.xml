@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="address" class="com.Spring_Core_G_24.Address">
+<property name="street" value="Chitkara"></property>
+<property name="city" value="CHandigrah"></property>
+<property name="state" value="Punjab"></property>
+
+
+
+
+</bean>
+
+<bean id="student" class="com.Spring_Core_G_24.Student">
+
+<property name="id" value="1"></property>
+<property name="name" value="Wasif"></property>
+<property name="course">
+<list>
+<value>Java</value>
+<value>Python</value>
+<value>c++</value>
+</list>
+</property>
+
+<property name="courseAndTrainer">
+<map>
+<entry  key="Java" value="Wasif"/>
+<entry  key="python" value="Harsh"/>
+<entry  key="c++" value="ISha" />
+
+
+</map>
+</property>
+
+<property name="address" ref="address"></property>
+
+
+</bean>
+
+
+</beans>
