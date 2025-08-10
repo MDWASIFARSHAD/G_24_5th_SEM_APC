@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+  <beans>      
+  <bean id="student" class="com.Spring_core_05_08.Student">
+  <constructor-arg value="1"></constructor-arg>
+  <constructor-arg value="Wasif"></constructor-arg>
+  <constructor-arg>
+  <list>
+  <value>Java</value>
+  <value>Python</value>
+  <value>C++</value>
+  </list>
+  </constructor-arg>
+  <constructor-arg>
+  <map>
+  <entry key="Java" value="Wasif"></entry>
+    <entry key="Python" value="ROhit"></entry>
+      <entry key="C++" value="Harsh"></entry>
+
+
+  </map>
+  </constructor-arg>
+  </bean>
+  
+    <bean id="address" class="com.Spring_core_05_08.Address">
+    <constructor-arg value="Rajpura"></constructor-arg>
+    <constructor-arg value="Chandigrah"></constructor-arg>
+    <constructor-arg value="Punjab"></constructor-arg>
+    </bean>
+
+  
+  </beans>
